@@ -43,7 +43,7 @@ static void bouncy_layer_update_callback(Layer *me, GContext *ctx) {
 #ifdef PBL_COLOR
   graphics_context_set_fill_color(ctx, GColorCobaltBlue);
 #else
-  graphics_context_set_fill_color(ctx, GColorWhite);
+  graphics_context_set_fill_color(ctx, GColorBlack);
 #endif
   graphics_fill_circle(ctx, GPoint(position_x, position_y), ball_radius);
 }
